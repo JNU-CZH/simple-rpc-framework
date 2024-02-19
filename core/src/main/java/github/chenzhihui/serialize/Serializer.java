@@ -1,4 +1,4 @@
-package github.chenzhihui;
+package github.chenzhihui.serialize;
 
 import github.chenzhihui.extension.SPI;
 

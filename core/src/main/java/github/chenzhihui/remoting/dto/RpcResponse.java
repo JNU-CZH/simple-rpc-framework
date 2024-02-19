@@ -6,7 +6,7 @@ import java.io.Serializable;
 import github.chenzhihui.enums.RpcResponseCodeEnum;
 
 /**
- * RPC响应类
+ * RPC响应实体类
  *
  * @Author: ChenZhiHui
  * @DateTime: 2024/1/14 18:42

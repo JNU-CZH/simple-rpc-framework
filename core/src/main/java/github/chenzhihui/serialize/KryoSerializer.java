@@ -3,7 +3,6 @@ package github.chenzhihui.serialize;
 import com.esotericsoftware.kryo.Kryo;
 import com.esotericsoftware.kryo.io.Input;
 import com.esotericsoftware.kryo.io.Output;
-import github.chenzhihui.Serializer;
 import github.chenzhihui.exception.SerializeException;
 import github.chenzhihui.remoting.dto.RpcRequest;
 import github.chenzhihui.remoting.dto.RpcResponse;
