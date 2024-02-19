@@ -15,10 +15,10 @@ import java.net.InetSocketAddress;
 public interface ServiceRegistry {
 
     /**
-     * 注册服务
+     * 注册服务到注册中心
      *
-     * @param rpcServiceName    rpc服务名
-     * @param inetSocketAddress 服务地址
+     * @param rpcServiceName    rpc服务名（name + group + version）
+     * @param inetSocketAddress 远程服务地址
      */
     void registerService(String rpcServiceName, InetSocketAddress inetSocketAddress);
 

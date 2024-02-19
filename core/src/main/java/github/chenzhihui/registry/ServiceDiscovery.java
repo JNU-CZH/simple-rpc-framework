@@ -15,10 +15,10 @@ import java.net.InetSocketAddress;
 public interface ServiceDiscovery {
 
     /**
-     * 按rpcServiceName查找服务
+     * 按rpcServiceName查找服务获得远程服务地址
      *
      * @param rpcRequest rpc service pojo
-     * @return service address
+     * @return service 远程服务地址
      */
     InetSocketAddress lookupService(RpcRequest rpcRequest);
 }
